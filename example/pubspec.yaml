@@ -19,6 +19,9 @@ dependencies:
   video_player: ^2.0.0-nullsafety.7
   file_picker: ^3.0.0-nullsafety.2
 
+dependency_overrides:
+  flutter_plugin_android_lifecycle: 2.0.0-nullsafety
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
