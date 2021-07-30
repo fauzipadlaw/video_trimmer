@@ -6,7 +6,7 @@ version: 1.0.0+1
 publish_to: none
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -14,13 +14,8 @@ dependencies:
   video_trimmer:
     path: ../
 
-  cupertino_icons: ^1.0.2
-  image_picker: ^0.6.7+21
-  video_player: ^2.0.0-nullsafety.7
-  file_picker: ^3.0.0-nullsafety.2
-
-dependency_overrides:
-  flutter_plugin_android_lifecycle: 2.0.0-nullsafety
+  cached_video_player: ^2.0.0-dev.1
+  file_picker: ^3.0.3
 
 dev_dependencies:
   flutter_test:
